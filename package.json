@@ -1,0 +1,36 @@
+{
+  "name": "nightwatch101",
+  "version": "0.0.9",
+  "description": "nightwatch for end-to-end testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/nightwatch --env local",
+    "report": "./node_modules/.bin/nightwatch-html-reporter -d ./reports"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cythilya/nightwatch101.git"
+  },
+  "keywords": [
+    "nightwatch",
+    "end-to-end",
+    "testing",
+    "selenium",
+    "webdriver"
+  ],
+  "author": {
+    "name": "Hsin-Hao Tang",
+    "url": "https://github.com/cythilya"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cythilya/nightwatch101/issues"
+  },
+  "homepage": "https://github.com/cythilya/nightwatch101#readme",
+  "devDependencies": {
+    "nightwatch": "^0.9.9",
+    "nightwatch-html-reporter": "^2.0.4",
+    "chromedriver": "^2.33.2",
+    "selenium-server": "^3.8.1"
+  }
+}
